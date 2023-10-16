@@ -1,0 +1,87 @@
+#section{
+    width: 50%;
+    height: 800px;
+    /* border: 1px solid black; */
+    right: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#section-text{
+    text-shadow: 3px 5px 7px black;
+}
+
+#card{
+    height: 500px;
+    width: 350px;
+    margin: 150px auto 0 auto;
+    border-radius: 45px;
+    background-color: rgba(31, 41, 55, 0.9);
+    box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.2);
+}
+
+#card-picture{
+    padding: 0 0 10px 0;
+    border-radius: 45px 45px 0 0;
+    height: 270px;
+}
+#card-title{
+    padding: 5px;
+    margin: auto;
+    color: white;
+}
+#card-desc{
+    color: azure;
+    padding: 15px;
+    margin: auto;
+    width: auto;
+    text-align: justify;
+}
+#arrows{
+    width: 100px;
+    height: 30px;
+    color: white;
+    display: flex;
+    margin: auto;
+}
+#arrows #arrow{
+    height: 30px;
+    width: 100px;
+    border: 1px solid black;
+    padding: 0 25px;
+    background-color: black;
+    border-radius: 0 0 15px 0;
+}
+#arrows #arrow:nth-child(1){
+    border-radius: 0 0 0 15px;
+}
+#arrows #arrow:hover{
+    border: 1px solid white;
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+}
+@media screen and (max-width: 450px){
+    #section-title{
+        position: absolute;
+        width: 100%;
+        padding: 10px 25px;
+        margin: 0;
+        right: 0;
+        top: 70px;
+        font-size: 28px;
+    }
+    #section-desc,#section-button{
+        display: none;
+    }
+    #card{
+        margin: 100px 30px;
+        padding: 0;
+        left: 10px;
+    }
+    #arrow{
+        margin: 0;
+        padding: 0;
+        position: relative;
+        bottom: 100px;
+        left: 90px;
+    }
+}

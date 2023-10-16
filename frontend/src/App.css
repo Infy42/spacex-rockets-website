@@ -1,0 +1,17 @@
+body{
+    background: url('./assets/hero.jpg') ;
+    background-repeat: no-repeat;
+    background-size:auto,auto;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 0.4rem;
+    background-color: transparent;
+    display: none;
+}
+@media screen and (max-width: 450px){
+    body{
+        width: 92%;
+    }
+}

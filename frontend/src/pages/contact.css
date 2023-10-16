@@ -1,0 +1,14 @@
+@media screen and (max-width: 450px) {
+    #contact-title{
+        padding-left:  100px;
+    }
+    .container{
+        width: 100%;
+        padding: 0 5px;
+        margin-left: 15px;
+    }
+    #contact-button{
+        padding-left: 161px;
+        padding-right: 161px;
+    }
+}

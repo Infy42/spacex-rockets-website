@@ -1,0 +1,8 @@
+@media screen and (max-width: 450px){
+    #search-title{
+        width: 90%;
+        left: 0;
+        margin: 0;
+        padding: 0;
+    }
+}

@@ -1,0 +1,57 @@
+#hero{
+    width: 50%;
+    height: 600px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#hero-text{
+    text-shadow: 2px 4px 7px black;
+}
+
+#hero-button{
+    top: 150px;
+    left: 100px;
+    border: 2px solid white;
+    text-shadow: 1.5px 5px 10px black;
+    box-shadow: 1px 3px 7px gray;
+}
+
+#hero-desc{
+    top: 250px;
+    padding: 0 30px;
+    left: 15px;
+    text-align: justify;
+    color: aliceblue;
+    text-shadow: 1px 2px 1px black;
+}
+
+#newsletter-button:hover{
+    transition: 0.3s;
+    background-color: rgb(123, 132, 213);
+    color: antiquewhite;
+}
+#newsletter-button::before{
+    transition: 0.3s;
+}
+@media screen and (max-width: 450px){
+    #hero{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    #hero-text{
+        width: 100%;
+        margin: 0;
+        padding: 5px;
+        font-size: 28px;
+    }
+    #hero-button{
+        margin: 0;
+        top: 90px;
+        left: 35px;
+    }
+    #hero-desc{
+        top: 180px;
+    }
+    
+
+}

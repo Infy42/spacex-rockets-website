@@ -1,0 +1,22 @@
+#redirectBtn{
+    display: flex;
+    margin-left: 255px;
+}
+
+@media screen and (max-width: 450px){
+    #nav{
+        width: 315px;
+    }
+    #pages{
+        margin-top: 45px;
+        width: auto;
+        right: 100px;
+    }
+    #links{
+        background-color: gray;
+        margin-top: 25px;
+        padding: 5px 100%;
+        border: 1px solid white;
+        border-radius: 15px;
+    }
+}
